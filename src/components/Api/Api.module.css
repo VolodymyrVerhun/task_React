@@ -1,0 +1,22 @@
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  font-size: 35px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(121, 121, 207, 0.46);
+}

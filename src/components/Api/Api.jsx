@@ -2,10 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 
 import style from './Api.module.css';
-import {
-  fetchTeachersForCategory,
-  postAvarage,
-} from 'components/Markup/apiFunc/api';
+import { fetchTeachersForCategory, postAvarage } from 'components/apiFunc/api';
 
 export default function Api() {
   const [isLoading, setIsLoading] = useState(false);
